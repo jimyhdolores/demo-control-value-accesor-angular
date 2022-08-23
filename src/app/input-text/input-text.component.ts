@@ -1,14 +1,10 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-input-text',
-  templateUrl: './input-text.component.html',
-  styleUrls: ['./input-text.component.scss'],
+	selector: 'app-input-text',
+	templateUrl: './input-text.component.html',
+	styleUrls: ['./input-text.component.scss']
 })
-export class InputTextComponent implements OnInit {
-  @Input() value = '';
-
-  constructor() {}
-
-  ngOnInit(): void {}
+export class InputTextComponent {
+	@Input() value = '';
 }

@@ -1,0 +1,9 @@
+<button
+	type="button"
+	*ngFor="let ratingId of ratingArr; index as i"
+	[id]="'star_' + i"
+	(click)="onClick(i + 1)"
+	matTooltipPosition="above"
+>
+	<span class="material-symbols-rounded"> {{ showIcon(i) }} </span>
+</button>
