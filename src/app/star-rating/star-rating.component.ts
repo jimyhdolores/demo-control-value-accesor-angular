@@ -1,17 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { NG_VALUE_ACCESSOR } from '@angular/forms';
 
 @Component({
 	selector: 'app-star-rating',
 	templateUrl: './star-rating.component.html',
-	styleUrls: ['./star-rating.component.scss'],
-	providers: [
-		{
-			provide: NG_VALUE_ACCESSOR,
-			useExisting: StarRatingComponent,
-			multi: true
-		}
-	]
+	styleUrls: ['./star-rating.component.scss']
 })
 export class StarRatingComponent implements OnInit {
 	private _rating: number = 3;
