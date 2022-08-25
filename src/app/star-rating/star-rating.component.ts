@@ -1,9 +1,12 @@
+import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
+	standalone: true,
 	selector: 'app-star-rating',
 	templateUrl: './star-rating.component.html',
-	styleUrls: ['./star-rating.component.scss']
+	styleUrls: ['./star-rating.component.scss'],
+	imports: [CommonModule]
 })
 export class StarRatingComponent implements OnInit {
 	private _rating: number = 3;
@@ -16,7 +19,6 @@ export class StarRatingComponent implements OnInit {
 	}
 
 	onClick(rating: number): void {
-		console.log(rating);
 		this._rating = rating;
 	}
 

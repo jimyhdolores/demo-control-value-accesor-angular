@@ -1,17 +1,14 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppComponent } from './app.component';
-import { OnlyNumberDirective } from './directives/only-number.directive';
-import { OnlyTextDirective } from './directives/only-text.directive';
-import { InputNumberComponent } from './input-number/input-number.component';
-import { InputTextComponent } from './input-text/input-text.component';
-import { StarRatingComponent } from './star-rating/star-rating.component';
+import { ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { AppComponent } from './app.component';
+import { StarRatingComponent } from './star-rating/star-rating.component';
 
 @NgModule({
-	declarations: [AppComponent, InputNumberComponent, InputTextComponent, OnlyNumberDirective, OnlyTextDirective, StarRatingComponent],
-	imports: [BrowserModule, BrowserAnimationsModule],
+	declarations: [AppComponent],
+	imports: [BrowserModule, BrowserAnimationsModule, ReactiveFormsModule, StarRatingComponent],
 	providers: [],
 	bootstrap: [AppComponent]
 })

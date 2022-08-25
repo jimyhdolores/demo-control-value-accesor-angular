@@ -1,10 +1,10 @@
 <div class="container">
-	<form class="container__form">
-		<label>Input</label>
-		<input class="field" />
+	<form class="container__form" [formGroup]="formGroup">
+		<h1>Registro de Libros</h1>
+		<label>Titulo</label>
+		<input class="field" formControlName="input" />
 
-		<label>Rating</label>
-		<app-star-rating></app-star-rating>
-		<button type="button">Save</button>
+		<label>Calificación</label>
+		<app-star-rating formControlName="rating"></app-star-rating>
 	</form>
 </div>

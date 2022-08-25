@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FormBuilder, Validators } from '@angular/forms';
 
 @Component({
 	selector: 'app-root',
@@ -6,5 +7,12 @@ import { Component } from '@angular/core';
 	styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-	title = 'demo-control-value-accesor-angular';
+	constructor(private _formBuilder: FormBuilder) {}
+	formGroup = this._formBuilder.group({
+		input: ['', Validators.required]
+	});
+
+	clickSave(): void {
+		console.log(this.formGroup.valid);
+	}
 }
