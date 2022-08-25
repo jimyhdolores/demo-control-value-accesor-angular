@@ -2,9 +2,10 @@
 	<form class="container__form" [formGroup]="formGroup">
 		<h1>Registro de Libros</h1>
 		<label>Titulo</label>
-		<input class="field" formControlName="input" />
+		<input class="field" formControlName="title" />
 
 		<label>Calificación</label>
 		<app-star-rating></app-star-rating>
+		<button type="button" (click)="clickSave()">Save</button>
 	</form>
 </div>

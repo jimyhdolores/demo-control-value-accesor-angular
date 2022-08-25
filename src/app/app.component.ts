@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { FormBuilder, Validators } from '@angular/forms';
+import { FormControl, FormGroup, Validators } from '@angular/forms';
 
 @Component({
 	selector: 'app-root',
@@ -7,9 +7,8 @@ import { FormBuilder, Validators } from '@angular/forms';
 	styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-	constructor(private _formBuilder: FormBuilder) {}
-	formGroup = this._formBuilder.group({
-		input: ['', Validators.required]
+	formGroup = new FormGroup({
+		title: new FormControl('', Validators.required)
 	});
 
 	clickSave(): void {
