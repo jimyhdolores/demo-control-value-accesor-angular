@@ -1,27 +1,20 @@
-# DemoControlValueAccesorAngular
+# Demo Control ValueAccesor Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.3.
+Hola Chikis, en esta demostración veremos como funciona un Angular Form y como podemos integrar un componente personalizado a nuestro Reactive Form.
+Tengan en cuenta que este proyecto usa la versión 14 de Angular.
 
-## Development server
+Si les gusta el video compartan y suscribanse.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Pueden escribirme si tiene dudas chikis, gracias por su apoyo.🤗
 
-## Code scaffolding
+Suscríbete a mi canal 😎
+https://www.youtube.com/c/LogiDev
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+**Sígueme en mis redes:**
+👉Facebook : https://facebook.com/LogiDev25  
+búscame como: @LogiDev25  
+👉Instagram: https://instagram.com/jimyhdolores/  
+búscame como: @jimyhdolores  
+👉Twitter: https://twitter.com/jimyHDolores  
+búscame como: @jimyHDolores  
+👉LinkedIn:https://linkedin.com/in/jimyhuachodolores/

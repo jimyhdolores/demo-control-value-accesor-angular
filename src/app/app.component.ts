@@ -8,10 +8,11 @@ import { FormControl, FormGroup, Validators } from '@angular/forms';
 })
 export class AppComponent {
 	formGroup = new FormGroup({
-		title: new FormControl('', Validators.required)
+		title: new FormControl('', Validators.required),
+		rating: new FormControl(4, Validators.min(3))
 	});
 
 	clickSave(): void {
-		console.log(this.formGroup.valid);
+		console.log('valid--> ', this.formGroup.valid);
 	}
 }

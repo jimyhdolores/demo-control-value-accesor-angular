@@ -5,7 +5,8 @@
 		<input class="field" formControlName="title" />
 
 		<label>Calificación</label>
-		<app-star-rating></app-star-rating>
+		<app-star-rating formControlName="rating"></app-star-rating>
+		<span class="error" *ngIf="formGroup.controls.rating.hasError('min')">La calificación mínima es 3</span>
 		<button type="button" (click)="clickSave()">Save</button>
 	</form>
 </div>
