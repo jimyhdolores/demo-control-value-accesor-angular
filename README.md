@@ -6,9 +6,11 @@ Tengan en cuenta que este proyecto usa la versión 14 de Angular.
 Si les gusta el video compartan y suscribanse.
 
 Pueden escribirme si tiene dudas chikis, gracias por su apoyo.🤗
+Link del video:
+📤https://youtu.be/UabeWOGqtvM
 
 Suscríbete a mi canal 😎
-https://www.youtube.com/c/LogiDev
+📤https://www.youtube.com/c/LogiDev
 
 **Sígueme en mis redes:**
 👉Facebook : https://facebook.com/LogiDev25  
