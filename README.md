@@ -1,4 +1,4 @@
-# Demo Control ValueAccesor Angular
+# Demo ControlValueAccesor Angular
 
 Hola Chikis, en esta demostración veremos como funciona un Angular Form y como podemos integrar un componente personalizado a nuestro Reactive Form.
 Tengan en cuenta que este proyecto usa la versión 14 de Angular.
