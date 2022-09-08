@@ -8,6 +8,13 @@
 		<label>Calificación</label>
 		<app-star-rating formControlName="rating"></app-star-rating>
 		<span class="error" *ngIf="formGroup.controls.rating.hasError('min')">La calificación mínima es 3</span>
+
+		<hr />
+		<h3>Autor</h3>
+		<app-rating-name formControlName="ratingName"></app-rating-name>
+		<span class="error" *ngIf="formGroup.controls.ratingName.hasError('invalidRatingName')"
+			>Ingrese los datos requeridos</span
+		>
 		<button type="button" (click)="clickSave()">Save</button>
 	</form>
 </div>
