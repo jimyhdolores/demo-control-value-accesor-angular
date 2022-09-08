@@ -1,7 +1,0 @@
-<form class="container" [formGroup]="formGroup">
-	<label>Nombre</label>
-	<div class="container__elements">
-		<input class="field" formControlName="name" />
-		<span class="error" *ngIf="formGroup.controls.name.hasError('required')">Igrese el nombre del autor</span>
-	</div>
-</form>
