@@ -3,6 +3,7 @@
 		<h1>Registro de Libros</h1>
 		<label>Titulo</label>
 		<input class="field" formControlName="title" />
+		<span class="error" *ngIf="formGroup.controls.title.hasError('required')">Ingrese el titulo</span>
 
 		<label>Calificación</label>
 		<app-star-rating formControlName="rating"></app-star-rating>
