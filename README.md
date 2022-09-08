@@ -12,8 +12,14 @@ Tengan en cuenta que este proyecto usa la versión 14 de Angular.
 Si les gusta el video compartan y suscribanse.
 
 Pueden escribirme si tiene dudas chikis, gracias por su apoyo.🤗
-Link del video:
+
+Link del video Control Value Accesor:
+
 📤https://youtu.be/UabeWOGqtvM
+
+Link del video Formularios Anidados y Control Value Accesor:
+
+📤https://youtu.be/ialWMJo_oM8
 
 Suscríbete a mi canal 😎
 📤https://www.youtube.com/c/LogiDev
